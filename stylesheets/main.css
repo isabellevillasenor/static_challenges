@@ -1,0 +1,117 @@
+body {
+  background-image: url('../images/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 74%;
+}
+.content-container {
+  width: 50%;
+  height: 1000px;
+  float: right;
+  opacity: 100%;
+}
+.background-container {
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+  float: right;
+  opacity: 50%;
+}
+.header-container {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+}
+.title-container {
+  float: left;
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(28,28,28);
+}
+.login-container {
+  float: right;
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(28,28,28);
+}
+.section-container {
+  width: 100%;
+  height: 15px;
+  line-height: 12px;
+}
+.building-container {
+  display: inline-block;
+  float: left;
+  width: 33.3%;
+  height: 15px;
+  line-height: 12px;
+  background-color: rgb(161, 67, 0);
+}
+.art-container {
+  margin: 0 auto 0 auto;
+  width: 33.3%;
+  height: 15px;
+  line-height: 12px;
+  background-color: rgb(161, 67, 0);
+}
+.featured-container {
+  float: right;
+  width: 33.3%;
+  height: 15px;
+  line-height: 12px;
+  background-color: rgb(161, 67, 0);
+}
+h1.title {
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: 20px;
+  padding-left: 5%;
+  vertical-align: middle;
+  max-width: 200px;
+  color: white;
+}
+p.login {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: 11px;
+  margin-right: 10px;
+  color: white;
+}
+p.building {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 105px;
+  margin-right: 190px;
+  color: white;
+}
+p.art {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: 12px;
+  padding-left: 50%;
+  vertical-align: middle;
+  margin-right: 395px;
+  color: white;
+}
+p.featured {
+  display: inline;
+  font-family: Arial, Arial, Sans-Serif;
+  font-size: 12px;
+  padding-left: 50%;
+  vertical-align: middle;
+  margin-right: 395px;
+  color: white;
+}
+h3{
+  font-size: 150%;
+}
+main{
+  font-size: 80%;
+  padding-bottom: 60px;
+}
